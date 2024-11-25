@@ -4,9 +4,8 @@
 # Date: 25/11/2024
 
 # 定义结果目录和输出目录
-RESULTS_DIR="/hdd1/home/f24_wyli/project/pipeline/analysis_results/results"  # 请替换为您的实际结果目录路径
-OUTPUT_DIR="/hdd1/home/f24_wyli/project/pipeline/vcf_gathering"    # 请替换为您希望的输出目录路径
-
+RESULTS_DIR="/hdd1/home/f24_wyli/project/pipeline/analysis_results/results" 
+OUTPUT_DIR="/hdd1/home/f24_wyli/project/pipeline/vcf_gathering"   
 # 如果输出目录不存在，则创建
 mkdir -p "${OUTPUT_DIR}"
 
