@@ -2,6 +2,7 @@
 
 # GNBF5030 Project Analysis Pipeline (breseq version)
 # This script performs data analysis including download, QC, preprocessing, and variant calling
+# To successfully run this script, conda env and packages(sratools, breseq) are required
 # Author: Jason & Neil
 # Date: 22/11/2024
 
