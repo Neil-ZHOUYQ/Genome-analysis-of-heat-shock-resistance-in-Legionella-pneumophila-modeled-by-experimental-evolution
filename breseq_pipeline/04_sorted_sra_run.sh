@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# Author: Jason
+# Date: 2024/12/11
 # Set input file and target directory
 sorted_file="sorted_SRArun.txt"
 vcf_folder="/hdd1/home/f24_wyli/project/pipeline/vc_fastp/breseq_outputs"  # Folder storing all VCF files
