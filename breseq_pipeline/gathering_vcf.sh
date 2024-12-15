@@ -21,9 +21,9 @@ for SRR_DIR in "${RESULTS_DIR}"/SRR*; do
         if [ -f "${VCF_FILE}" ]; then
             # copy and rename
             cp "${VCF_FILE}" "${OUTPUT_DIR}/${SRR}.vcf"
-            echo "已复制 ${VCF_FILE} 到 ${OUTPUT_DIR}/${SRR}.vcf"
+            echo "Copy ${VCF_FILE} to ${OUTPUT_DIR}/${SRR}.vcf"
         else
-            echo "在 ${SRR_DIR} 中未找到 VCF 文件"
+            echo "Not Found VCF IN ${SRR_DIR} "
         fi
     fi
 done
