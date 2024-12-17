@@ -1,5 +1,5 @@
 # G5pipe & Genomic variation analysis of Legionella pneumophila with heat-resistance 
-The repository keeps the codes of a bioinformatic research project, tagetting to analysis genomic variations  in Legionella pneumophila with heat resistance modeled by experimental evolution, in The Chinese University of Hong Kong. In the project, an analysis tool G5pipe was developed, displaying significant capability of  finding SNPs.
+The repository keeps the codes of a bioinformatic research project, tagetting to analysis genomic variations  in Legionella pneumophila with heat resistance modeled by experimental evolution, in The Chinese University of Hong Kong. In the project, an analysis tool G5pipe was developed, displaying significant capability of  finding SNPs. The project focused on anlyzing the SNPs found by both G5pipe and breseq(http://barricklab.org/breseq).
 ## G5pipe_structure
 
 ![G5pipe_structure](images/G5pipe_structure.png)
