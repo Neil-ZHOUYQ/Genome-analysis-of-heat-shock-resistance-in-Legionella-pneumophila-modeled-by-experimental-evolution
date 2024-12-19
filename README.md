@@ -13,15 +13,31 @@ G5pipe has scripts for each step, which facilitates customizing workflow and deb
 
 ## Run G5pipe without annotation
 snpEff, snpEff database and genome.gff are not needed when annotation is not required.
-2 name-specified directories are needed under current directory: codes and reference, which contains all shell scripts files and genome FASTA file respectively. Results are structured in different directories 
-[picture]
+2 name-specified directories are needed under current directory: codes and reference, which contains all shell scripts files and genome FASTA file respectively. A created directory named as SRR_number contains all structured results. 
+```bash
+./codes/commands_without_annotation.sh SRR_number
+```
+
 
 ## Run G5pipe with annotation
 The species name in annotation.sh should be modified to the species where sequencing data comes from. My example used Legionella pneumophila as reference genome.
 2 name-specified directories are needed under current directory: codes and reference. ./codes contains all shell scripts files. ./reference contains genome.fasta and genome.gff. Results are structured in different directories 
-[picture]
+```bash
+./codes/commands.sh SRR_number
+```
 
 ## Run G5pipe using our project dataset
-[picture]
+In our project, we analyzed the genomic variation of 103 FASTQ files. The program uses a SRA name list to download all files from NCBI, and go through them with scripts in ./codes one by one. To try this example, except for the previous 2 directories, 3 files are also required: process.sh, sorted_SRArun.txt and SRAgroup.txt, which are listed in G5pipe folder in the github repo.
+```bash
+nohup ./process.sh &
+```
+
+## Breseq and R scripts
+Breseq and some R scripts were also used to get and visualize the results of our project. The codes were listed in breseq and R_downstream_analysis. The workflow of our project is listed here for reference.
+![workflow](images/project_workflow.png)
+
+## Contact
+If you have any problems with our codes, please feel free to contact: zhouyq@link.cuhk.edu.hk
+
 
 
